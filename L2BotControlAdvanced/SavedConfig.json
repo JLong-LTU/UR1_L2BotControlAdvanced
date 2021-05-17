@@ -1,0 +1,26 @@
+﻿{
+  "cameraIndex": 0,
+  "laneDetection": {
+    "laneDetectionMethod": "BinaryThreshold",
+    "binaryThreshold": 0,
+    "hSVThresholds": {
+      "hMin": 0,
+      "hMax": 179,
+      "sMin": 0,
+      "sMax": 255,
+      "vMin": 0,
+      "vMax": 255
+    }
+  },
+  "redLineDetection": {
+    "hSVThresholds": {
+      "hMin": 0,
+      "hMax": 179,
+      "sMin": 0,
+      "sMax": 255,
+      "vMin": 0,
+      "vMax": 255
+    },
+    "suspendStopCommand": false
+  }
+}
